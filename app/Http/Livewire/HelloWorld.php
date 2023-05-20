@@ -6,15 +6,13 @@ use Livewire\Component;
 
 class HelloWorld extends Component
 {
-    public $name = 'Rashad';
-    public $loud = false;
-    public $greeting  = ['Hello'];
+    public $names = ['Rashad', 'Jelly', 'Chico'];
 
-
-    public function resetName($name = 'Default')
+    public function mount()
     {
-        $this->name = $name;
+        $this->contacts = $name;
     }
+
     public function render()
     {
         return view('livewire.hello-world');
