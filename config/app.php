@@ -182,9 +182,11 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+
         /*
          * Package Service Providers...
          */
+        Livewire\LivewireServiceProvider::class,
 
         /*
          * Application Service Providers...
